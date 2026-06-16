@@ -1,10 +1,12 @@
-num1 = int(input("Digite o primeiro valor: "))
-num2 = int(input("Digite o segundo valor: "))
-
-# Comparando os valores e exibindo a mensagem
-if num1 > num2:
-    print("O primeiro valor é o maior")
-elif num2 > num1:
-    print("O segundo valor é o maior")
-else:
-    print("Não existe valor maior, os dois são iguais")
+let numero1 = Number(prompt("informe o primeiro numero"));
+let numero2 = Number(prompt("informe o segundo numero"));
+if (numero1 > numero2) {
+    alert("o primeiro numero é maior")
+    document.write(' o numero $(numero1) é maior que o numero $(numero2)')
+} else if (numero2 > numero1) {
+    alert("o primeiro numero é maior")
+    document.write("o numero $(numero1) é maior que o numero $(numero2)")
+} else {
+    alert("os numeros são iguais")
+    document.write("o numero $(numero1) é igual ao numero $(numero2)")
+}
